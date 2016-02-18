@@ -26,6 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'simple_form'
+gem "autoprefixer-rails"
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -46,3 +50,8 @@ group :development do
 end
 
 gem 'rspec-rails', group: [ :test ]
+
+
+source 'https://rails-assets.org' do
+gem 'rails-assets-plugin'
+end

@@ -40,7 +40,7 @@ private
   def cocktail_params
     # *Strong params*: You need to *whitelist* what can be updated by the user
     # Never trust user data!
-    params.require(:cocktail).permit(:name, :address, :category, :phone_number)
+    params.require(:cocktail).permit(:name)
   end
 
   def set_cocktail
